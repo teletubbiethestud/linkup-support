@@ -5,38 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkUp - Support & Info</title>
     <style>
-        body { 
-            font-family: -apple-system, sans-serif; 
-            max-width: 600px; 
-            margin: 0 auto; 
-            padding: 40px 20px; 
-            line-height: 1.6;
-            background: #f8f6f0;
-            color: #333;
-        }
-        h1 { color: #b38c6b; font-size: 2.2em; font-weight: 700; }
-        h2 { color: #8b6f4e; margin-top: 2em; }
-        a { color: #b38c6b; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px; line-height: 1.6; background: #fdfaf5; color: #4a3f35; }
+        h1 { color: #8b6f4e; font-size: 2.2em; border-bottom: 2px solid #e6d5c3; padding-bottom: 10px; }
+        h2 { color: #a67c52; margin-top: 1.5em; }
+        a { color: #8b6f4e; text-decoration: underline; font-weight: 600; }
+        .card { background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #e6d5c3; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         ul { padding-left: 20px; }
-        .updated { font-size: 0.9em; color: #666; }
+        .footer { margin-top: 40px; font-size: 0.85em; color: #8c837a; text-align: center; }
     </style>
 </head>
 <body>
-    <h1>🗺️ LinkUp Support</h1>
-    <p><strong>AI-powered hangout spot finder for friends.</strong></p>
-    
-    <h2>📧 Contact</h2>
-    <p>Email: <a href="mailto:nibhakunwar6@gmail.com">nibhakunwar6@gmail.com</a></p>
-    
+    <h1>🗺️ LinkUp</h1>
+    <p><strong>The fair way to meet up.</strong> LinkUp uses AI to find the perfect hangout spot based on the locations of you and your friends, ensuring travel time is balanced for everyone.</p>
+
+    <div class="card">
+        <h2>📧 Contact Support</h2>
+        <p>Questions, feedback, or need help? Reach out directly:</p>
+        <p><strong>Email:</strong> <a href="mailto:nibhakunwar6@gmail.com">nibhakunwar6@gmail.com</a></p>
+    </div>
+
     <h2>❓ FAQ</h2>
     <ul>
-        <li>Friend addresses stored <strong>only on your device</strong></li>
-        <li>Location used for travel calculations only</li>
-        <li>Delete app = all data gone forever</li>
-        <li>Works offline after addresses geocoded</li>
+        <li><strong>Where is my data?</strong> Your friend's addresses are stored 100% locally on your iPhone via SwiftData.</li>
+        <li><strong>Is my location tracked?</strong> No. Your location is only used while the app is open to calculate travel times.</li>
+        <li><strong>How does search work?</strong> We use OpenAI to understand your requests (like "cozy spots for 4 people"), but we never send your personal info to their servers.</li>
     </ul>
-    
-    <p class="updated">Last updated: Feb 2026</p>
+
+    <div class="footer">
+        <p>Created with ❤️ for the Nepali diaspora and friends everywhere.</p>
+        <p>Last updated: February 2026</p>
+        <p><a href="privacy.html">View Privacy Policy</a></p>
+    </div>
 </body>
 </html>
